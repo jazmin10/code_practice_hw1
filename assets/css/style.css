@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
 }
 
 /* ------- GENERAL STYLING ------- */
@@ -13,10 +14,15 @@
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+body {
+	background-image: url("../images/circles-light/circles-light.png");
+}
+
 /* ------- NAVBAR ------- */
 nav {
-	border-bottom: 1px solid #ccc;
+	border-bottom: 2px solid #ccc;
 	width: 100%;
+	background-color: #fff;
 }
 
 .nav-container {
@@ -54,39 +60,9 @@ nav {
 	border-right: 1px solid #777;
 }
 
-/*MAIN CONTENT FLOW BASIC STRUCTURE*/
-.container {
-	width: 100%;
-}
+/* ------- FOOTER  ------- */
 
-.wrapper {
-	width: 80%;
-	margin: 0 auto;
-}
-
-.content {
-	width: 75%;
-	float: left;
-	/*background: blue;*/
-	padding: 20px;
-
-	margin-bottom: 40px;
-}
-
-.connect-with-me {
-	width: 25%;
-	float: right;
-	background-color: yellow;
-	padding: 20px;
-
-	margin-bottom: 40px;
-}
-
-#about-me {
-	background: blue;
-}
-
-/* STICKY FOOTER ATTEMPT */
+/* Start of Sticky Footer */
 html, body {
 	height: 100%;
 }
@@ -95,14 +71,91 @@ html, body {
 	height: auto !important;
 	height: 100%;
 	min-height: 100%;
-	margin: 0 auto -105px;
+	margin: 0 auto -100px;
+}
+
+footer, .footer-purposes {
+	height: 100px;
+}
+
+/* End of Sticky Footer */
+
+.copyright {
+	color: #a2a0a0;
+	text-align: center;
+	width: 25%;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 30px;
 }
 
 footer {
 	clear: both;
-	background: black;
+	background: #666;
+	border-top: 10px solid #4aaaa5;
 }
 
-footer, .footer-purposes {
-	height: 105px;
+/* ------- MAIN CONTENT ------- */
+
+/* Basic Flow Structure */
+.container {
+	clear: both;
+	width: 100%;
 }
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+.content {
+	width: 75%;
+	float: left;
+	padding-right: 40px;
+}
+
+.connect-with-me {
+	width: 25%;
+	float: right;
+	
+}
+
+#about-me-content, #contact-content, 
+#portfolio-content, #connect-links {
+	background: #fff;
+	padding: 30px;
+
+}
+
+/* Connect With Me Section */
+#connect-links {
+	text-align: center;
+}
+
+#connect-links h3 {
+	color: #4aaaa5;
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #ccc;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+#connect-links a {
+	text-decoration: none;
+	margin-right: 5px;
+
+}
+
+#connect-links img:last-child {
+	margin-right: 0;
+}
+
+#connect-links img {
+	width: 25%;
+}
+
+
