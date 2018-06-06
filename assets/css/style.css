@@ -175,7 +175,6 @@ h2.heading-font {
 }
 
 /* About Me Section */
-
 #about-me-content img {
 	height: 200px;
 	width: 300px;
@@ -188,8 +187,31 @@ h2.heading-font {
 	margin-bottom: 10px;
 }
 
+ /* Contact Section */
+ #contact-form {
+	font-size: 20px;
+ }
 
+ #contact-form input, #contact-form textarea {
+ 	width: 100%;
+ 	margin-bottom: 15px;
+ 	padding: 10px;
+ 	border: 2px solid #ddd;
+ 	font-size: 15px;
+ }
 
+#contact-form .form-label {
+	margin-bottom: 5px;
+}
+
+#contact-form button {
+	font-size: 15px;
+	padding: 10px 30px;
+	color: #fff;
+	background-color: #4aaaa5;
+	border-top-style: none;
+	letter-spacing: 0.5px;
+}
 
 
 
