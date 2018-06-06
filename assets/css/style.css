@@ -12,6 +12,7 @@
 
 .other-fonts {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #777;
 }
 
 body {
@@ -126,7 +127,8 @@ footer {
 	background: #fff;
 	padding: 30px;
 	border: 2px solid #ddd;
-
+	overflow: auto;
+	margin-bottom: 40px;
 }
 
 /* Connect With Me Section */
@@ -171,4 +173,23 @@ h2.heading-font {
 	border-bottom: 2px solid #ddd;
 	margin-bottom: 25px;
 }
+
+/* About Me Section */
+
+#about-me-content img {
+	height: 200px;
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+}
+
+#about-me-content p {
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+
+
+
+
 
