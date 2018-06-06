@@ -125,6 +125,7 @@ footer {
 #portfolio-content, #connect-links {
 	background: #fff;
 	padding: 30px;
+	border: 2px solid #ddd;
 
 }
 
@@ -139,7 +140,7 @@ footer {
 	font-size: 17px;
 	text-align: center;
 	padding-bottom: 15px;
-	border-bottom: 2px solid #ccc;
+	border-bottom: 2px solid #ddd;
 	margin: 0 auto;
 	margin-bottom: 15px;
 }
@@ -158,4 +159,16 @@ footer {
 	width: 25%;
 }
 
+/* General Heading Styling for Contact, 
+Portfolio, and About Me */
+
+h2.heading-font {
+	color: #4aaaa5;
+	font-weight: bold;
+	font-size: 30px;
+	letter-spacing: 0.8px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 25px;
+}
 
